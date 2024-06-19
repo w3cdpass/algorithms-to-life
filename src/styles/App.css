@@ -1,38 +1,26 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .HomePage, .AlgorithmPage {
-    display: flex;
-  }
-  
-  .Sidebar {
-    width: 250px;
-    background: #f4f4f4;
-    padding: 20px;
-  }
-  
-  .Sidebar h2 {
-    margin-top: 0;
-  }
-  
-  .Sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .Sidebar ul li {
-    margin: 10px 0;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .AlgorithmExample, .Usage, .CodeViewer {
-    margin-bottom: 20px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-page, .algorithm-page {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0.5em 0;
+}

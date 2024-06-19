@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .sidebar {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Add distinct backgrounds to each sidebar for clarity */
+  .sidebar:nth-child(1) {
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar:nth-child(2) {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar:nth-child(3) {
+    background-color: #d0d0d0;
+  }
+  

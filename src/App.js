@@ -1,16 +1,19 @@
+// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AlgorithmPage from './pages/AlgorithmPage';
+import ThreeSidebars from './components/ThreeSidebars';
+import Algorithm from './components/Algorithm';
 import './styles/App.css';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
+        <ThreeSidebars />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/algorithm/:id" element={<AlgorithmPage />} />
+          {/* Add routes for algorithms */}
+          <Route path="/algorithm/:slug" element={<Algorithm />} />
+          {/* Add other routes here */}
         </Routes>
       </div>
     </Router>
