@@ -1,0 +1,23 @@
+.AlgorithmPage {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .animation-and-details {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .details {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  .bubble-sort-animation {
+    width: 200px;
+  }
+  
