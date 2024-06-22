@@ -36,7 +36,7 @@ To run the project locally:
 2. Navigate into the project directory.
 3. Install dependencies with `npm install` or `yarn install`.
 4. Start the development server with `npm start` or `yarn start`.
-5. Open `http://localhost:3000` in your browser to view the application.
+5. Open `http://localhost:3000/algorithms-to-life/` in your browser to view the application.
 
 ## License
 
