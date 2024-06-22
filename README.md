@@ -47,3 +47,26 @@ Distributed under the MIT License. See `LICENSE` for more information.
 For questions or feedback, contact [Ku pasva](https://discordapp.com/users/kumar_sai7350) on Discord:
 
 [![Discord](https://img.shields.io/badge/Contact%20on-Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/kumar_sai7350)
+
+# Project Name
+
+Project description goes here...
+
+---
+
+🌟 **If you like this idea, please consider giving it a star on GitHub!** 🌟
+
+[![GitHub stars](https://img.shields.io/github/stars/your_username/your_repository.svg?style=social)](https://github.com/w3cdpass/algorithms-to-life.git)
+
+---
+
+## Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Getting Started
+
+Instructions on how to get started with the project...
+
