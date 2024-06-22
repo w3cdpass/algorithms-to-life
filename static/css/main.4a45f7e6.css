@@ -1,2 +1,0 @@
-.container{display:flex;height:100vh}.sidebar{border:1px solid #ccc;box-sizing:border-box;flex:1 1;overflow-y:scroll;padding:20px}.sidebar:first-child{background-color:#f0f0f0}.sidebar:nth-child(2){background-color:#e0e0e0}.sidebar:nth-child(3){background-color:#d0d0d0}body{font-family:Arial,sans-serif;margin:0}.App{display:flex;flex-direction:column;height:100vh}.algorithm-page,.home-page{flex:1 1;padding:20px}h1{font-size:2em;margin-bottom:.5em}p{margin:.5em 0}
-/*# sourceMappingURL=main.4a45f7e6.css.map*/

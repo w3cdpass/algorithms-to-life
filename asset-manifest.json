@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/algorithms-to-life/static/css/main.4a45f7e6.css",
-    "main.js": "/algorithms-to-life/static/js/main.ca0801cf.js",
+    "main.css": "/algorithms-to-life/static/css/main.48b87941.css",
+    "main.js": "/algorithms-to-life/static/js/main.db5822de.js",
     "index.html": "/algorithms-to-life/index.html",
-    "main.4a45f7e6.css.map": "/algorithms-to-life/static/css/main.4a45f7e6.css.map",
-    "main.ca0801cf.js.map": "/algorithms-to-life/static/js/main.ca0801cf.js.map"
+    "main.48b87941.css.map": "/algorithms-to-life/static/css/main.48b87941.css.map",
+    "main.db5822de.js.map": "/algorithms-to-life/static/js/main.db5822de.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a45f7e6.css",
-    "static/js/main.ca0801cf.js"
+    "static/css/main.48b87941.css",
+    "static/js/main.db5822de.js"
   ]
 }
