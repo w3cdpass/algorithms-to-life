@@ -44,4 +44,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-For questions or feedback, contact [Your Name] at [Your Email].
+For questions or feedback, contact [Your Name](https://discordapp.com/users/kumar_sai7350) on Discord:
+
+[![Discord](https://img.shields.io/badge/Contact%20on-Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/kumar_sai7350)
