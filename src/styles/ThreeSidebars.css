@@ -2,7 +2,11 @@
     display: flex;
     height: 100vh; /* Full height of the viewport */
   }
-  
+  .sidebar1{
+
+    overflow-y: scroll;
+ 
+  }
   .sidebar {
     flex: 1;
     overflow-y: scroll;

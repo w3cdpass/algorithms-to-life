@@ -1,8 +1,100 @@
-// src/data/algorithms.js
 export const algorithms = [
-    { name: 'Binary Search', slug: 'binary-search' },
-    { name: 'Bubble Sort', slug: 'bubble-sort' },
-    { name: 'Quick Sort', slug: 'quick-sort' },
-    // Add more algorithms here
-  ];
-  
+  {
+    category: "Supervised Learning",
+    items: [
+      { name: "Decision Trees", slug: "decision-trees" },
+      { name: "Random Forest", slug: "random-forest" },
+      { name: "Support Vector Machines", slug: "support-vector-machines" },
+      { name: "k-Nearest Neighbors", slug: "k-nearest-neighbors" },
+      { name: "Naive Bayes", slug: "naive-bayes" },
+      { name: "Logistic Regression", slug: "logistic-regression" },
+      { name: "Neural Networks", slug: "neural-networks" },
+      { name: "Gradient Boosting Machines", slug: "gradient-boosting-machines" },
+      { name: "Linear Regression", slug: "linear-regression" },
+      { name: "Polynomial Regression", slug: "polynomial-regression" },
+      { name: "Ridge Regression", slug: "ridge-regression" },
+      { name: "Lasso Regression", slug: "lasso-regression" },
+      { name: "Elastic Net", slug: "elastic-net" },
+      { name: "Support Vector Regression", slug: "support-vector-regression" },
+    ],
+  },
+  {
+    category: "Unsupervised Learning",
+    items: [
+      { name: "k-Means Clustering", slug: "k-means-clustering" },
+      { name: "Hierarchical Clustering", slug: "hierarchical-clustering" },
+      { name: "DBSCAN", slug: "dbscan" },
+      { name: "Gaussian Mixture Models", slug: "gaussian-mixture-models" },
+      { name: "Principal Component Analysis", slug: "principal-component-analysis" },
+      { name: "t-Distributed Stochastic Neighbor Embedding", slug: "t-distributed-stochastic-neighbor-embedding" },
+      { name: "Linear Discriminant Analysis", slug: "linear-discriminant-analysis" },
+      { name: "Independent Component Analysis", slug: "independent-component-analysis" },
+      { name: "UMAP", slug: "umap" },
+      { name: "Isolation Forest", slug: "isolation-forest" },
+      { name: "One-Class SVM", slug: "one-class-svm" },
+      { name: "Autoencoders", slug: "autoencoders" },
+    ],
+  },
+  {
+    category: "Semi-Supervised Learning",
+    items: [
+      { name: "Self-training", slug: "self-training" },
+      { name: "Co-training", slug: "co-training" },
+    ],
+  },
+  {
+    category: "Reinforcement Learning",
+    items: [
+      { name: "Q-Learning", slug: "q-learning" },
+      { name: "Deep Q-Networks", slug: "deep-q-networks" },
+      { name: "Policy Gradient Methods", slug: "policy-gradient-methods" },
+      { name: "Actor-Critic Methods", slug: "actor-critic-methods" },
+      { name: "Proximal Policy Optimization", slug: "proximal-policy-optimization" },
+      { name: "Asynchronous Advantage Actor-Critic", slug: "asynchronous-advantage-actor-critic" },
+    ],
+  },
+  {
+    category: "Self-Supervised Learning",
+    items: [
+      { name: "Contrastive Learning", slug: "contrastive-learning" },
+      { name: "Predictive Coding", slug: "predictive-coding" },
+      { name: "BERT", slug: "bert" },
+    ],
+  },
+  {
+    category: "Specialized Machine Learning Techniques",
+    items: [
+      { name: "Convolutional Neural Networks", slug: "convolutional-neural-networks" },
+      { name: "Recurrent Neural Networks", slug: "recurrent-neural-networks" },
+      { name: "Long Short-Term Memory Networks", slug: "long-short-term-memory-networks" },
+      { name: "Generative Adversarial Networks", slug: "generative-adversarial-networks" },
+      { name: "Transformer models", slug: "transformer-models" },
+    ],
+  },
+  {
+    category: "Transfer Learning",
+    items: [
+      { name: "Fine-tuning pre-trained models", slug: "fine-tuning-pre-trained-models" },
+      { name: "BERT for NLP", slug: "bert-for-nlp" },
+      { name: "VGG/ResNet for image processing", slug: "vgg-resnet-for-image-processing" },
+    ],
+  },
+  {
+    category: "Machine Learning Frameworks and Libraries",
+    items: [
+      { name: "Scikit-learn", slug: "scikit-learn" },
+      { name: "TensorFlow", slug: "tensorflow" },
+      { name: "Keras", slug: "keras" },
+      { name: "PyTorch", slug: "pytorch" },
+      { name: "XGBoost", slug: "xgboost" },
+      { name: "LightGBM", slug: "lightgbm" },
+      { name: "CatBoost", slug: "catboost" },
+      { name: "R Caret", slug: "r-caret" },
+      { name: "RandomForest in R", slug: "randomforest-in-r" },
+      { name: "Weka", slug: "weka" },
+      { name: "Deeplearning4j", slug: "deeplearning4j" },
+      { name: "Flux in Julia", slug: "flux-in-julia" },
+      { name: "MLJ in Julia", slug: "mlj-in-julia" },
+    ],
+  },
+];

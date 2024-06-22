@@ -1,0 +1,18 @@
+/* src/styles/Algorithm.css */
+.algorithm-container {
+  position: relative; /* Ensure the container is relative for positioning context */
+  margin-bottom: 100px; /* Add margin at the bottom to accommodate the fixed content */
+}
+
+.fixed-content {
+  position: fixed;
+  bottom: 0; /* Position at the bottom of the viewport */
+  left: 0;
+  right: 0; /* Stretch to the full width of the viewport */
+  background-color: #ffffff; /* Background color of fixed content */
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  z-index: 1000; /* Ensure the fixed content is in front of other elements */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+  pointer-events: auto; /* Allow interactions with the fixed content */
+}
