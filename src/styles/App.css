@@ -11,8 +11,10 @@ body {
 }
 
 .sidebar1 {
-  overflow-y: scroll;
-  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure the sidebar takes full height */
 }
 
 .sticky-header {
@@ -49,19 +51,33 @@ input[type="text"] {
   height: 30px; /* Smaller height */
 }
 
+.algorithm-list {
+  flex: 1;
+  overflow-y: auto; /* Make the list scrollable */
+  padding: 0 10px; /* Optional: Add some padding for better aesthetics */
+  padding-bottom:150px; /* Add padding to accommodate the fixed bottom content */
+}
+
+.category-title {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.category-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .sidebar {
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 20px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
 
 /* Optional: Add distinct backgrounds to each sidebar for clarity */
-.sidebar:nth-child(1) {
-  background-color: #f0f0f0;
-}
-
 .sidebar:nth-child(2) {
   background-color: #e0e0e0;
 }
