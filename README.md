@@ -66,7 +66,5 @@ Project description goes here...
 - Feature 2
 - Feature 3
 
-## Getting Started
 
-Instructions on how to get started with the project...
 
